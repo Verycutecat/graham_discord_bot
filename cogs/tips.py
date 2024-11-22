@@ -116,6 +116,9 @@ class TipsCog(commands.Cog):
 
     @commands.command()
     async def burn(self, ctx: Context):
+        return 
+        # https://github.com/bbedward/graham_discord_bot/pull/76#issuecomment-2492730480
+        # Burn was a temporary command. It is intentionally disabled.
         msg = ctx.message
         user = ctx.user
         send_amount = ctx.send_amount
